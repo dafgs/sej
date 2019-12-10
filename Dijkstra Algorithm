@@ -1,0 +1,34 @@
+def dijk():
+
+    start = int(input('LINK_ID'))
+    finish_node = int(input())
+    link_ID = [ ] # Save link ID from CSV file in order from top
+    start_node_list = [] # Save F_NODE from CSV file in order from top
+    finish_node_list = [] # Save T_NODE from CSV file in order from top
+    link_weight = []
+        
+    while True:
+        F_NODE_ID = []
+        F_NODE_weight = []
+        
+        for j in enumerate(st):
+            if start == start_node_list[j]:
+                F_NODE_ID.append(link_ID[j])
+                F_NODE_weight.append(link_weight)
+        i = min(F_NODE_weight)
+        num = link_weight.index(i)
+        num2 = finish_node_list.index (link_ID[num])
+        start = finish_node_list(num2)
+        print(start)
+        
+
+        F_NODE = [None]
+        F_NODE_weight = [None]
+        num = 0
+        num2 = 0
+        i = 0
+        
+        if start == finish_node:
+            break
+
+# How can I complete the algorithm by updating the weights that is code?
