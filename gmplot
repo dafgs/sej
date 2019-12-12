@@ -2,7 +2,12 @@ import gmplot
   
 latitude_list = [ 35.8247988, 35.8761442, 35.8761442 ] 
 longitude_list = [ 128.6456436,  128.5960119, 128.5938232 ] 
-  
+ 
+latitude_list.append(start_ID)
+''' 
+longitude_list.append(finish_ID)
+
+
 gmap3 = gmplot.GoogleMapPlotter(35, 
                                128.6456436, 13) 
   
