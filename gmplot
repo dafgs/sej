@@ -1,12 +1,8 @@
 import gmplot 
   
-latitude_list = [ 35.8247988, 35.8761442, 35.8761442 ] 
-longitude_list = [ 128.6456436,  128.5960119, 128.5938232 ] 
+latitude_list = [ 35.865942, 35.863241993827216, 35.865482993817366 ,35.8612119934721,35.857004994074785,35.856322993622385] 
+longitude_list = [ 128.6029469,  128.6026260132258, 128.59334601355002,128.59271001291526,128.59072301296806,128.58286701388738] 
  
-latitude_list.append(start_ID)
-''' 
-longitude_list.append(finish_ID)
-
 
 gmap3 = gmplot.GoogleMapPlotter(35, 
                                128.6456436, 13) 
@@ -19,7 +15,8 @@ gmap3.scatter( latitude_list, longitude_list, '# FF0000',
 # Plot method Draw a line in 
 # between given coordinates 
 gmap3.plot(latitude_list, longitude_list,  
-           'red', edge_width = 2.5) 
+           'black', edge_width = 2.5) 
   
 gmap3.draw( "C:\\Users\\user\\Downloads\\map13.html" )
 print("finish")
+
