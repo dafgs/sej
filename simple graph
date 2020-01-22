@@ -1,0 +1,18 @@
+import matplotlib.pyplot as plt
+
+n=int(input())
+
+x=[]
+y=[] #y에 거리  저장(append해라 걍)
+for i in range(1,n+1):
+    x.append(i)
+
+
+    
+plt.plot(x,y)
+
+plt.xlabel('t')
+
+plt.ylabel('percentage')
+
+plt.show()
